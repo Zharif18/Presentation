@@ -1,0 +1,131 @@
+SDLC Process of Event Management System
+1. Requirement Analysis
+In this phase, all the needs of the Event Management System are collected and documented.
+
+Identify user types: Admin, Event Organizer, Participant.
+
+Gather functional requirements:
+
+Event creation, updating, deletion (Admin)
+
+User registration and login
+
+Event listing and search
+
+Event registration/booking
+
+Seat availability check
+
+Event reminders/notifications
+
+Gather non-functional requirements:
+
+Responsive UI
+
+Good performance
+
+Secure form handling and data validations
+
+Browser compatibility
+
+Prepare SRS (Software Requirement Specification)
+
+
+2.System Design
+The system's overall structure, UI, architecture, and workflows are planned here.
+
+Activities:
+Create use-case diagrams for user workflows
+
+Prepare DFD / flowcharts
+
+Create UI wireframes/mockups (using Figma/Confluence)
+
+Design navigation flow between pages
+
+Plan database structure (Events, Users, Registrations)
+
+Decide tech stack: HTML5, JS, CSS/Tailwind, GitHub
+
+
+3.Development
+Actual coding and creation of the website happens in this phase.
+
+Activities:
+Build front-end pages using:
+
+HTML5 for structure
+
+CSS/Tailwind CSS for styling
+
+JavaScript for functionality
+
+Implement JavaScript DOM features:
+
+Event registration form validation
+
+Seat availability counter
+
+Event search/filter
+
+Create admin features:
+
+Add event
+
+Edit event
+
+Delete event
+
+Connect pages and ensure smooth workflow
+
+
+4.Testing
+Test the system for errors, bugs, and logical issues.
+
+Activities:
+Unit testing: Test each function (form validation, event addition)
+
+Functional testing: Check if event booking works correctly
+
+Integration testing: Ensure registration updates seat count
+
+Usability testing: Check UI responsiveness
+
+Cross-browser testing: Chrome, Edge, Firefox
+
+Common tests:
+Invalid inputs in forms
+
+Checking seat availability updates
+
+Broken links/buttons
+
+Layout issues on mobile
+
+
+5.Deployment
+The project is hosted and made available to end users.
+
+Activities:
+Deploy using GitHub Pages / Netlify / Vergel
+
+Upload final code to GitHub repository
+
+Ensure all pages load correctly online
+
+Share the URL with the project guide or audience
+
+
+6.Maintenance
+After deployment, the system must be updated and improved.
+
+Activities:
+Fix bugs reported by users
+
+Add new events or features
+
+Improve performance or UI
+
+Update documentation on Confluence
+
+Manage version control using Git (commits, branches)
